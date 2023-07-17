@@ -1,0 +1,31 @@
+function isPowerOfTwoBitWise(n) {
+    if(n<1) {
+        return false
+    }
+    return (n % (n -1) === 0)
+}
+
+
+
+
+
+// function isPowerTwo(n) {
+//   if (n < 1) {
+//     return false;
+//   }
+
+//   while (n > 1) {
+//     if (n % 2 != 0) {
+//       return false;
+//     }
+//     n = n / 2;
+//   }
+//   return true;
+// }
+
+// console.log(isPowerTwo(1));
+// console.log(isPowerTwo(2));
+// console.log(isPowerTwo(5));
+// console.log(isPowerTwo(16));
+console.log(isPowerOfTwoBitWise(2));
+
