@@ -46,7 +46,7 @@ function getUser(token) {
 function getPictures(apiKey) {
   if (apiKey) {
     setTimeout(() => {
-      return ({pic: pictures})
+      return pictures;
     }, 1500);
   }
 }
@@ -65,6 +65,6 @@ user.then(function (response) {
 async function userDisplay(){
     const {token} = await login("Raf")
     const {apiKey} = await getUser(token)
-    const {pic} = await getPictures(apiKey)
+    const {pictures} = await getPictures(apiKey)
     console.log(user);
 }
