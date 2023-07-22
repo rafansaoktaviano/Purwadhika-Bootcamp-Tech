@@ -1,0 +1,28 @@
+table {
+  background-color: red;
+  width: 100%;
+  text-align: center;
+  color: white;
+  border-collapse: collapse;
+}
+tr {
+  height: 100px;
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+}
+th {
+  border: 1px solid black;
+}
+
+.vertebrata {
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+tr img {
+  width: 100px;
+}
