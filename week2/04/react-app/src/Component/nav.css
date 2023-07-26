@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  40px;
+}
+
+.nav-bar ul {
+    display: flex;
+
+}
+.nav-bar ul li{
+    display: flex;
+    margin-left: 50px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="text">Rafansa</p>
+
+    <input type="text" id="input">
+    <button id="btn">Change Text</button>
+  </body>
+  <script>
+    btn.addEventListener("click", changeText);
+
+    function changeText() {
+      const btn = document.getElementById("btn");
+      const input = document.getElementById("input").value
+
+      return (document.getElementById("text").innerHTML = input);
+    }
+  </script>
+</html>
